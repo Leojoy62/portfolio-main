@@ -6,7 +6,7 @@ import "./ContactMe.css";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Typical from "react-typical";
+// import Typical from "react-typical";
 import { PUBLIC_KEY, TEMPLETE_KEY } from "../../../config";
 
 const ContactMe = () => {
