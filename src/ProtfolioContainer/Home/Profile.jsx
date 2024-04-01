@@ -39,7 +39,7 @@ const Profile = () => {
             </h1>
           </div>
           <div>
-            <h1 className="text-5xl font-semibold text-white ">
+            <h1 className="text-2xl md:text-5xl font-semibold text-white ">
               <Typewriter
                 words={[
                   "Full Stack Developer",
