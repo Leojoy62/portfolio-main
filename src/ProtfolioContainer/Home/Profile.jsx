@@ -1,4 +1,5 @@
 import React from "react";
+import { Typewriter } from "react-simple-typewriter";
 import { RiFacebookBoxFill } from "react-icons/ri";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -6,7 +7,6 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import "./Profile.css";
 import pp from "../../../public/PP Size.jpg";
 
-// import Typical from "react-typical";
 import ProFooter from "./ProFooter";
 import NavBar from "./NavBar";
 
@@ -36,6 +36,23 @@ const Profile = () => {
             <h1 className="text-4xl font-bold text-white">
               Hello, I'm{" "}
               <span className="text-orange-600">Leonard Joy Mridha</span>
+            </h1>
+          </div>
+          <div>
+            <h1 className="text-5xl font-semibold text-white ">
+              <Typewriter
+                words={[
+                  "Full Stack Developer",
+                  "MERN Developer",
+                  "Software Developer",
+                ]}
+                loop={false}
+                cursor
+                cursorStyle="|"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
             </h1>
           </div>
           {/* <div>

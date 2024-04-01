@@ -8,6 +8,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 // import Typical from "react-typical";
 import { PUBLIC_KEY, TEMPLETE_KEY } from "../../../config";
+import { Typewriter } from "react-simple-typewriter";
 
 const ContactMe = () => {
   const [name, setName] = useState("");
@@ -83,9 +84,17 @@ const ContactMe = () => {
                   <h2 className="text-white text-4xl font-bold mb-5">
                     Get In Touch
                   </h2>
-                  {/* <h1 className="text-3xl font-bold text-white">
-                    <Typical loop={Infinity} steps={["", 1000, "", 1000]} />
-                  </h1> */}
+                  <h1 className="text-3xl font-bold text-white">
+                    <Typewriter
+                      words={[]}
+                      loop={false}
+                      cursor
+                      cursorStyle="|"
+                      typeSpeed={70}
+                      deleteSpeed={50}
+                      delaySpeed={2000}
+                    />
+                  </h1>
                 </div>
                 <div className="flex gap-5 text-2xl text-white justify-start items-center">
                   <a href="https://www.facebook.com/leojoy62/" target="blank">
