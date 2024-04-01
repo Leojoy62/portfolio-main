@@ -56,23 +56,7 @@ const Profile = () => {
               />
             </h1>
           </div>
-          {/* <div>
-            <h1 className="text-5xl font-semibold text-white hidden lg:block">
-              <Typical
-                loop={Infinity}
-                steps={[
-                  "MERN Stack Developer",
-                  1000,
-                  "Web App Developer",
-                  1000,
-                  "Full Stack Developer",
-                  1000,
-                  "Software Developer",
-                  1000,
-                ]}
-              />
-            </h1>
-          </div> */}
+
           <div className="my-5 ml-8 lg:ml-0 lg:ml-0">
             <p className="text-gray-400 text-xl ">
               Knack on building applications with front and back-end operations.
@@ -86,8 +70,8 @@ const Profile = () => {
               Hire Me
             </a>
             <a
-              href="../../../public/Resume_of_Leonard_Joy_Mridha(MERN).pdf"
-              download={"Resume_of_Leonard_Joy_Mridha(MERN)"}
+              href="https://drive.google.com/file/d/1-BByC5upYhZoDxvotRFIPVNvpxKbpq5q/view"
+              target="blank"
             >
               <button className="btn bg-orange-600 hover:bg-black border-0 text-white px-10 rounded-3xl lg:text-lg font-bold">
                 Get Resume

@@ -77,8 +77,8 @@ const AboutMe = () => {
                 Hire Me
               </a>
               <a
-                href="../../../public/Resume_of_Leonard_Joy_Mridha(MERN).pdf"
-                download={"Resume_of_Leonard_Joy_Mridha(MERN)"}
+                href="https://drive.google.com/file/d/1-BByC5upYhZoDxvotRFIPVNvpxKbpq5q/view"
+                target="blank"
               >
                 <button className="btn bg-orange-600 hover:bg-black border-0 text-white px-10 rounded-3xl lg:text-lg font-bold">
                   Get Resume
