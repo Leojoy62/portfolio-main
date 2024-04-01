@@ -45,6 +45,7 @@ const Profile = () => {
                   "Full Stack Developer",
                   "MERN Developer",
                   "Software Developer",
+                  "web Developer",
                 ]}
                 loop={false}
                 cursor
