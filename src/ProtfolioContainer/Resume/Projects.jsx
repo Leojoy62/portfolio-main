@@ -132,7 +132,7 @@ const Projects = () => {
             Live
           </a>
           <a
-            href="https://your-chef-74f95.web.app/"
+            href="https://github.com/Leojoy62/YourChef"
             target="blank"
             className="bg-orange-600 text-white py-2 px-4 rounded-3xl font-semibold"
           >
@@ -169,7 +169,7 @@ const Projects = () => {
             Live
           </a>
           <a
-            href=""
+            href="https://github.com/Leojoy62/CarFixer"
             target="blank"
             className="bg-orange-600 text-white py-2 px-4 rounded-3xl font-semibold"
           >
@@ -204,7 +204,7 @@ const Projects = () => {
             Live
           </a>
           <a
-            href=""
+            href="https://github.com/Leojoy62/miro"
             target="blank"
             className="bg-orange-600 text-white py-2 px-4 rounded-3xl font-semibold"
           >
