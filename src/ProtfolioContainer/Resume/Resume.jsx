@@ -5,7 +5,7 @@ import { MdWorkHistory } from "react-icons/md";
 import { GiSkills } from "react-icons/gi";
 import { GoProjectRoadmap } from "react-icons/go";
 import { MdFavorite } from "react-icons/md";
-import ProgressBar from "@ramonak/react-progress-bar";
+
 import Education from "./Education";
 import WorkHistory from "./WorkHistory";
 import Skills from "./Skills";

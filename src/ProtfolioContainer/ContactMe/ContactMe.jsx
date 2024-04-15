@@ -15,6 +15,7 @@ const ContactMe = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const isMobile = window.innerWidth <= 768;
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -125,7 +126,7 @@ const ContactMe = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/2 " data-aos="fade-left">
+            <div className="lg:w-1/2 " data-aos={isMobile ? "" : "fade-left"}>
               <form onSubmit={sendEmail}>
                 <div className="w-[100%] h-[400px] bg-gray-300 rounded-xl mt-14 p-5 flex flex-col items-center justify-center">
                   <div className="w-full">
@@ -134,7 +135,7 @@ const ContactMe = () => {
                     </label>
                     <br />
                     <input
-                      className="w-[100%] h-[40px] bg-gray-400 rounded-lg mt-1 px-2 text-xl"
+                      className="focus:outline-none w-[100%] h-[40px] bg-gray-400 rounded-lg mt-1 px-2 text-xl"
                       type="text"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
@@ -147,7 +148,7 @@ const ContactMe = () => {
                     </label>
                     <br />
                     <input
-                      className="w-[100%] h-[40px] bg-gray-400 rounded-lg mt-1 px-2 text-xl"
+                      className="focus:outline-none w-[100%] h-[40px] bg-gray-400 rounded-lg mt-1 px-2 text-xl"
                       type="email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
@@ -160,7 +161,7 @@ const ContactMe = () => {
                     </label>
                     <br />
                     <textarea
-                      className="w-[100%] h-[80px] bg-gray-400 rounded-lg mt-1 p-2 text-xl"
+                      className="focus:outline-none w-[100%] h-[80px] bg-gray-400 rounded-lg mt-1 p-2 text-xl"
                       type="text"
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
