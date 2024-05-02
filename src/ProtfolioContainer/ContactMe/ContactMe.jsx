@@ -65,10 +65,10 @@ const ContactMe = () => {
   return (
     <div id="contact" className="mt-24">
       <div className="flex flex-col justify-center items-center my-10">
-        <h1 className="text-5xl font-bold" data-aos="fade-right">
+        <h1 className="text-3xl font-bold" data-aos="fade-right">
           Contact Me
         </h1>
-        <p className="text-2xl my-5 text-gray-500" data-aos="fade-left">
+        <p className="text-lg my-5 text-gray-500" data-aos="fade-left">
           Let's Keep In Touch
         </p>
         <div className="relative flex" data-aos="zoom-in">
@@ -82,7 +82,7 @@ const ContactMe = () => {
             <div className="lg:w-1/2" data-aos="fade-right">
               <div className="flex flex-col items-center lg:items-start">
                 <div className="flex  gap-2 ">
-                  <h2 className="text-white text-4xl font-bold mb-5">
+                  <h2 className="text-white text-3xl font-bold mb-5">
                     Get In Touch
                   </h2>
                   <h1 className="text-3xl font-bold text-white">
@@ -116,7 +116,7 @@ const ContactMe = () => {
                 </div>
               </div>
               <div className="mt-20 ">
-                <p className="text-gray-500 text-2xl mb-1">
+                <p className="text-gray-500 text-lg mb-1">
                   Send Your Email Here !
                 </p>
                 <div className="relative">
@@ -130,7 +130,7 @@ const ContactMe = () => {
               <form onSubmit={sendEmail}>
                 <div className="w-[100%] h-[400px] bg-gray-300 rounded-xl mt-14 p-5 flex flex-col items-center justify-center">
                   <div className="w-full">
-                    <label className="text-xl font-semibold" htmlFor="name">
+                    <label className="text-lg font-semibold" htmlFor="name">
                       Name
                     </label>
                     <br />
@@ -143,7 +143,7 @@ const ContactMe = () => {
                     />
                   </div>
                   <div className="w-full my-5">
-                    <label className="text-xl font-semibold" htmlFor="email">
+                    <label className="text-lg font-semibold" htmlFor="email">
                       Email
                     </label>
                     <br />
@@ -156,7 +156,7 @@ const ContactMe = () => {
                     />
                   </div>
                   <div className="w-full">
-                    <label className="text-xl font-semibold" htmlFor="message">
+                    <label className="text-lg font-semibold" htmlFor="message">
                       Message
                     </label>
                     <br />
@@ -169,7 +169,7 @@ const ContactMe = () => {
                   </div>
                   <div className="w-full mt-5">
                     <button
-                      className="btn bg-bgcolor text-white px-10 border-orange-600 text-xl hover:bg-orange-600"
+                      className="btn bg-bgcolor text-white px-10 border-orange-600 text-lg hover:bg-orange-600"
                       type="submit"
                     >
                       {isLoading ? "Sending..." : "Send"}

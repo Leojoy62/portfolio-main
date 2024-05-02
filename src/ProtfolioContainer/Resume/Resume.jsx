@@ -20,10 +20,10 @@ const Resume = () => {
   return (
     <div id="resume" className="px-[5%] ">
       <div className="flex flex-col justify-center items-center my-16">
-        <h1 className="text-5xl font-bold" data-aos="fade-right">
+        <h1 className="text-3xl font-bold" data-aos="fade-right">
           Resume
         </h1>
-        <p className="text-2xl my-5 text-gray-500" data-aos="fade-left">
+        <p className="text-lg my-5 text-gray-500" data-aos="fade-left">
           My Formal Bio Details
         </p>
         <div className="relative flex mb-10" data-aos="zoom-in">

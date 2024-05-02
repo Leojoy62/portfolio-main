@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Details from "./Details";
 
 const Projects = () => {
@@ -23,8 +23,8 @@ const Projects = () => {
             projectNum === 1 ? (
               <div>
                 <p>
-                  <span className="text-orange-600 font-bold">YourChef:</span> A
-                  full-stack restaurant management application. <br />
+                  <span className="text-orange-600 font-bold ">YourChef:</span>{" "}
+                  A full-stack restaurant management application. <br />
                   <span className="text-orange-600 font-bold">
                     Front-end:
                   </span>{" "}
@@ -137,9 +137,9 @@ const Projects = () => {
         <div className="flex justify-between items-center gap-5">
           <div className="pointer hidden md:block"></div>
           <div>
-            <h5 className="text-2xl text-orange-600 font-bold">YourChef</h5>
+            <h5 className="text-xl text-orange-600 font-bold">YourChef</h5>
 
-            <p className="text-xl font-semibold">
+            <p className="text-lg font-semibold">
               A Full Stack Online Restaurant App
             </p>
           </div>
@@ -176,9 +176,9 @@ const Projects = () => {
         <div className="flex justify-between items-center gap-5">
           <div className="pointer hidden md:block"></div>
           <div className="mr-8 md:mr-0 lg:mr-0">
-            <h5 className="text-2xl text-orange-600 font-bold">ChatCave</h5>
+            <h5 className="text-xl text-orange-600 font-bold">ChatCave</h5>
 
-            <p className="text-xl font-semibold">
+            <p className="text-lg font-semibold">
               A real-time chatting application
             </p>
           </div>
@@ -213,9 +213,9 @@ const Projects = () => {
         <div className="flex justify-between items-center gap-5">
           <div className="pointer hidden md:block"></div>
           <div className="mr-8 md:mr-0 lg:mr-0">
-            <h5 className="text-2xl text-orange-600 font-bold">CarFixer</h5>
+            <h5 className="text-xl text-orange-600 font-bold">CarFixer</h5>
 
-            <p className="text-xl font-semibold">
+            <p className="text-lg font-semibold">
               A Full Stack Car servicing App
             </p>
           </div>
@@ -250,9 +250,9 @@ const Projects = () => {
         <div className="flex justify-between items-center gap-5">
           <div className="pointer hidden md:block"></div>
           <div className="mr-20 md:mr-0 lg:mr-0">
-            <h5 className="text-2xl text-orange-600 font-bold">Miro</h5>
+            <h5 className="text-xl text-orange-600 font-bold">Miro</h5>
 
-            <p className="text-xl font-semibold">A Front-end Task Project</p>
+            <p className="text-lg font-semibold">A Front-end Task Project</p>
           </div>
         </div>
         <div className="flex justify-between items-center gap-2 mt-5 md:mt-0 lg:mt-0">

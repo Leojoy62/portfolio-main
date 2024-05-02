@@ -42,13 +42,13 @@ const NavBar = () => {
             </ul>
           </div>
 
-          <a className="text-5xl font-bold ">
+          <a className="text-4xl font-bold ">
             LEO<span className="text-orange-600">N</span>ARD.
           </a>
         </div>
 
         <div className="navbar-end hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-xl font-semibold">
+          <ul className="menu menu-horizontal px-1 text-[17px] font-semibold">
             <li className="style-nav">
               <a href="#home">Home</a>
             </li>

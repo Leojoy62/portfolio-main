@@ -7,11 +7,11 @@ const WorkHistory = () => {
         <div className="flex flex-col justify-center md:flex-row md:justify-between items-center gap-5">
           <div className="pointer hidden md:block"></div>
           <div className="">
-            <h5 className="text-2xl text-orange-600 font-bold">
+            <h5 className="text-xl text-orange-600 font-bold">
               BW Solutions, Bangladesh
             </h5>
 
-            <p className="text-xl font-semibold">Full Stack Developer</p>
+            <p className="text-lg font-semibold">Full Stack Developer</p>
           </div>
         </div>
         <div className="bg-orange-600 text-white py-2 px-4 rounded-3xl font-semibold mt-5 md:mt-0 text-center">

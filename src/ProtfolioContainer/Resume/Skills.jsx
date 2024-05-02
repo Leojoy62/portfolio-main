@@ -9,7 +9,7 @@ const Skills = () => {
           <div>
             <div className="flex items-center gap-2 mb-2">
               <div className="pointer"></div>
-              <h5 className="text-2xl text-orange-600 font-bold">JavaScript</h5>
+              <h5 className="text-xl text-orange-600 font-bold">JavaScript</h5>
             </div>
             <ProgressBar
               completed={80}
@@ -26,7 +26,7 @@ const Skills = () => {
           <div className="my-8">
             <div className="flex items-center gap-2 mb-2">
               <div className="pointer"></div>
-              <h5 className="text-2xl text-orange-600 font-bold">Node JS</h5>
+              <h5 className="text-xl text-orange-600 font-bold">Node JS</h5>
             </div>
             <ProgressBar
               completed={75}
@@ -43,7 +43,7 @@ const Skills = () => {
           <div>
             <div className="flex items-center gap-2 mb-2">
               <div className="pointer"></div>
-              <h5 className="text-2xl text-orange-600 font-bold">React JS</h5>
+              <h5 className="text-xl text-orange-600 font-bold">React JS</h5>
             </div>
             <ProgressBar
               completed={95}
@@ -60,7 +60,7 @@ const Skills = () => {
           <div className="mt-8">
             <div className="flex items-center gap-2 mb-2">
               <div className="pointer"></div>
-              <h5 className="text-2xl text-orange-600 font-bold">HTML</h5>
+              <h5 className="text-xl text-orange-600 font-bold">HTML</h5>
             </div>
             <ProgressBar
               completed={95}
@@ -79,7 +79,7 @@ const Skills = () => {
           <div>
             <div className="flex items-center gap-2 mb-2">
               <div className="pointer"></div>
-              <h5 className="text-2xl text-orange-600 font-bold">Express JS</h5>
+              <h5 className="text-xl text-orange-600 font-bold">Express JS</h5>
             </div>
             <ProgressBar
               completed={75}
@@ -96,7 +96,7 @@ const Skills = () => {
           <div className="my-8">
             <div className="flex items-center gap-2 mb-2">
               <div className="pointer"></div>
-              <h5 className="text-2xl text-orange-600 font-bold">MongoDB</h5>
+              <h5 className="text-xl text-orange-600 font-bold">MongoDB</h5>
             </div>
             <ProgressBar
               completed={80}
@@ -113,7 +113,7 @@ const Skills = () => {
           <div>
             <div className="flex items-center gap-2 mb-2">
               <div className="pointer"></div>
-              <h5 className="text-2xl text-orange-600 font-bold">Next JS</h5>
+              <h5 className="text-xl text-orange-600 font-bold">Next JS</h5>
             </div>
             <ProgressBar
               completed={60}
@@ -130,7 +130,7 @@ const Skills = () => {
           <div className="mt-8">
             <div className="flex items-center gap-2 mb-2">
               <div className="pointer"></div>
-              <h5 className="text-2xl text-orange-600 font-bold">CSS</h5>
+              <h5 className="text-xl text-orange-600 font-bold">CSS</h5>
             </div>
             <ProgressBar
               completed={90}

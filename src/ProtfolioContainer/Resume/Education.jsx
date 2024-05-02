@@ -7,11 +7,11 @@ const Education = () => {
         <div className="flex justify-between items-center gap-5">
           <div className="pointer hidden md:block"></div>
           <div>
-            <h5 className="text-2xl text-orange-600 font-bold">
+            <h5 className="text-xl text-orange-600 font-bold">
               Daffodil Institute of IT, Bangladesh
             </h5>
 
-            <p className="text-xl font-semibold">
+            <p className="text-lg font-semibold">
               Bachelor of Science in Computer Science & Engineering
             </p>
           </div>
@@ -24,11 +24,11 @@ const Education = () => {
         <div className="flex justify-between items-center gap-5">
           <div className="pointer hidden md:block"></div>
           <div>
-            <h5 className="text-2xl text-orange-600 font-bold">
+            <h5 className="text-xl text-orange-600 font-bold">
               Kabi Nazrul Govt. College
             </h5>
 
-            <p className="text-xl font-semibold">
+            <p className="text-lg font-semibold">
               Higher Secondary Certificate in Science
             </p>
           </div>
@@ -41,11 +41,11 @@ const Education = () => {
         <div className="flex justify-between items-center gap-5">
           <div className="pointer hidden md:block"></div>
           <div>
-            <h5 className="text-2xl text-orange-600 font-bold">
+            <h5 className="text-xl text-orange-600 font-bold">
               Kotalipara Public Institute
             </h5>
 
-            <p className="text-xl font-semibold">
+            <p className="text-lg font-semibold">
               Secondary School Certificate in Science
             </p>
           </div>

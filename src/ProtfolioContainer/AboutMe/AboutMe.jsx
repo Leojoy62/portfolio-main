@@ -5,10 +5,10 @@ const AboutMe = () => {
   return (
     <div id="about" className="flex flex-col justify-center items-center mt-24">
       <div className="flex flex-col justify-center items-center ">
-        <h1 className="text-5xl font-bold" data-aos="fade-right">
+        <h1 className="text-3xl font-bold" data-aos="fade-right">
           About Me
         </h1>
-        <p className="text-2xl my-5 text-gray-500" data-aos="fade-left">
+        <p className="text-lg my-5 text-gray-500" data-aos="fade-left">
           Why Choose Me?
         </p>
         <div className="relative flex" data-aos="zoom-in">
@@ -23,7 +23,7 @@ const AboutMe = () => {
           </div>
           <div
             style={{ textAlign: "justify" }}
-            className="lg:w-[60%] text-xl mt-5 lg:mt-0 lg:mt-0"
+            className="lg:w-[60%] text-lg mt-5 lg:mt-0 lg:mt-0"
             data-aos="fade-left"
           >
             <p>
@@ -40,7 +40,7 @@ const AboutMe = () => {
               is my strength.
             </p>
             <br />
-            <h3 className="text-2xl font-semibold">Why Me?</h3>
+            <h3 className="text-xl font-semibold">Why Me?</h3>
             <br />
             <div className="flex flex-col gap-3">
               <div className="flex gap-2 items-center">
@@ -72,7 +72,7 @@ const AboutMe = () => {
             <div className="flex gap-6 flex justify-center items-center mt-10">
               <a
                 href="#contact"
-                className="btn bg-black hover:bg-orange-600 text-white px-10 rounded-3xl lg:text-lg font-bold"
+                className="btn bg-black hover:bg-orange-600 text-white px-10 rounded-3xl lg:text-[13px] font-bold"
               >
                 Hire Me
               </a>
@@ -80,7 +80,7 @@ const AboutMe = () => {
                 href="https://drive.google.com/file/d/1-BByC5upYhZoDxvotRFIPVNvpxKbpq5q/view"
                 target="blank"
               >
-                <button className="btn bg-orange-600 hover:bg-black border-0 text-white px-10 rounded-3xl lg:text-lg font-bold">
+                <button className="btn bg-orange-600 hover:bg-black border-0 text-white px-10 rounded-3xl lg:text-[13px] font-bold">
                   Get Resume
                 </button>
               </a>
