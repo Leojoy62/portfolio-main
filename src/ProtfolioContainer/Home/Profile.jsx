@@ -67,7 +67,7 @@ const Profile = () => {
               href="#contact"
               className="btn btn-outline hover:bg-orange-600 text-white px-10 rounded-3xl lg:text-[13px] font-bold"
             >
-              Hire Me
+              Contact Me
             </a>
             <a
               href="https://drive.google.com/file/d/1-BByC5upYhZoDxvotRFIPVNvpxKbpq5q/view"
