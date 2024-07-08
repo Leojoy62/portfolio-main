@@ -3,7 +3,7 @@ import React from "react";
 const Education = () => {
   return (
     <div data-aos="fade-up">
-      <div className="md:flex justify-between items-center">
+      <div className="md:flex  justify-between items-center">
         <div className="flex justify-between items-center gap-5">
           <div className="pointer hidden md:block"></div>
           <div>

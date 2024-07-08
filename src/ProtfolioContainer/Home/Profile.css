@@ -12,6 +12,8 @@
   height: 92%;
   width: 92%;
   border-radius: 50%;
+  transform: scale(1);
+  transition: 1s ease-in;
 }
 
 .profile-picture img:hover {

@@ -32,7 +32,7 @@ const Profile = () => {
               <FaSquareXTwitter className="hover:text-orange-600" />
             </a>
           </div>
-          <div className="mt-3 mb-5 ml-8 lg:ml-0 lg:ml-0">
+          <div className="mt-3 mb-5 ml-8 lg:ml-0">
             <h1 className="text-3xl font-bold text-white">
               Hello, I'm{" "}
               <span className="text-orange-600">Leonard Joy Mridha</span>
@@ -57,7 +57,7 @@ const Profile = () => {
             </h1>
           </div>
 
-          <div className="my-5 ml-8 lg:ml-0 lg:ml-0">
+          <div className="my-5 lg:ml-0 flex flex-col justify-center items-center lg:px-0 px-[2%] ml-3">
             <p className="text-gray-400 text-lg ">
               Knack on building applications with front and back-end operations.
             </p>
